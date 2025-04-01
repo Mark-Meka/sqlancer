@@ -211,7 +211,7 @@ public class TestRandomly {
 
     @Test
     public void testLong2() {
-        Randomly r = new Randomly();
+        Randomly r = new Randomly()
         for (int i = 0; i < NR_MIN_RUNS; i++) {
             long val = r.getLong(-1, Long.MAX_VALUE);
             assertTrue(val >= -1);
